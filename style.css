@@ -1,15 +1,11 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
 
-  body{
-    font-family: 'Merriweather', serif;
-  }
+  
 
   html {
     font-family: sans-serif;
@@ -31,6 +27,7 @@
   .guesses {
     color: white;
     padding: 7px;
+    
   }
   
   button {
@@ -71,7 +68,7 @@
   }
   
   #guess {
-    font-size: 55px;
+    font-size: 40px;
     /* margin-left: 90px; */
     margin-top: 120px;
     color: #fff;
@@ -101,5 +98,19 @@
   p {
     font-size: 16px;
     text-align: center;
+  }
+  
+
+  @media screen and (max-width:500px) {
+  
+  }
+
+  #wrapper h1{
+         font-size: 30px;
+
+  }
+
+  .resultParas p{
+    margin-top: 10px;
   }
   
